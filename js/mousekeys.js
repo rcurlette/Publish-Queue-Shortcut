@@ -6,8 +6,9 @@ function onDisplayStarted() {
 
 	// Open Publish Queue dialog
 	Mousetrap.bind('q', function() {
-			var popup = $popup.create($cme.Popups.PUBLISH_QUEUE.URL, $cme.Popups.PUBLISH_QUEUE.FEATURES);
-			popup.open();
+			//var popup = $popup.create($cme.Popups.PUBLISH_QUEUE.URL, $cme.Popups.PUBLISH_QUEUE.FEATURES);
+			//popup.open();
+			$commands.executeCommand('PublishingQueue')
 	});
 	
 	Mousetrap.bind('ctrl+shift+q', function() {
