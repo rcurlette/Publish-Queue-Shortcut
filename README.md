@@ -12,5 +12,5 @@ Tridion 2011 Publish Queue Shortcut GUI Extension
       &lt;vdir xmlns="http://www.sdltridion.com/2009/GUI/Configuration"&gt;Shortcuts&lt;/vdir&gt;
 &lt;/editor&gt;
 </pre>
-- Flush browser cache and press the q key.  Note, it does not work if your focus is in a text box or control.
+- Flush browser cache.  Test using the q key in any window.  Note, it does not work if your focus is in a text box or control.
 
